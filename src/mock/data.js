@@ -2,24 +2,24 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Hugo | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Hugo Cullinan',
+  subtitle: 'I\'m a keen Software Engineer',
+  cta: 'About me',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  img: 'bwheadshot.jpg',
+  paragraphOne: 'I have recently discontinued in the hospitality industry as a chef, and have decided to exercise my mind in the field of software engineering. It became evident that my desire to learn new things, and my constant curiosity of how and why things work was a big factor in working my way up through the ranks at my previous job.',
+  paragraphTwo: 'I chose software engineering as I find the problem solving aspect extremely gratifying, and I believe the soft skills I have acquired will be pertinent in such a collaborative field. I am extremely excited to begin my career in the industry and get stuck into some inspiring ideas.',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -28,67 +28,67 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'funfacts.png',
+    title: 'Fun Facts Blog',
+    info: 'A place to see and/or post interesting facts based on six different subjects. You might learn a thing or two whilst scrolling.',
+    info2: 'Built with Ruby on Rails',
+    url: 'https://subject-blog-app.herokuapp.com/',
+    repo: 'https://github.com/CullsGit/project1', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'gamesarcade.png',
+    title: 'Games Arcade',
+    info: 'Fun little group project, built in five days.',
+    info2: 'Built with the HTML5 framework Phaser3',
+    url: 'https://cullsgit.github.io/games/',
+    repo: 'https://github.com/CullsGit/games', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'tictactoe.png',
+    title: 'Swords and Shields',
+    info: 'First ever project. My edit of the classic tic tac toe game.',
+    info2: 'Built with Javascript, HTML5, CSS',
+    url: 'https://cullsgit.github.io/project0/',
+    repo: 'https://github.com/CullsGit/project0', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'I would love to chat about all things programming!',
+  btn: 'Hit me up!',
+  email: 'hugo.cullinan@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/hugo-cullinan/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/CullsGit',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
