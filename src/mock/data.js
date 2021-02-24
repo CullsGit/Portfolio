@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'funfacts.png',
     title: 'Fun Facts Blog',
-    info: 'A place to see and/or post interesting facts based on six different subjects. You might learn a thing or two whilst scrolling.',
-    info2: 'Built with Ruby on Rails',
+    info: 'Blog style app for posting interesting facts',
+    info2: 'Includes user registration',
     url: 'https://subject-blog-app.herokuapp.com/',
     repo: 'https://github.com/CullsGit/project1', // if no repo, the button will not show up
   },
@@ -39,8 +39,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'gamesarcade.png',
     title: 'Games Arcade',
-    info: 'Fun little group project, built in five days.',
-    info2: 'Built with the HTML5 framework Phaser3',
+    info: 'Collaborative project built with three other course mates',
+    info2: 'Learnt the importance of effective communication and pair programming',
     url: 'https://cullsgit.github.io/games/',
     repo: 'https://github.com/CullsGit/games', // if no repo, the button will not show up
   },
@@ -48,8 +48,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'tictactoe.png',
     title: 'Swords and Shields',
-    info: 'First ever project. My edit of the classic tic tac toe game.',
-    info2: 'Built with Javascript, HTML5, CSS',
+    info: 'Vanilla JavaScript animations',
+    info2: 'Utilises CSS flex design',
     url: 'https://cullsgit.github.io/project0/',
     repo: 'https://github.com/CullsGit/project0', // if no repo, the button will not show up
   },
